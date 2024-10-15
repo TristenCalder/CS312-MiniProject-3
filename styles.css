@@ -1,0 +1,193 @@
+
+/* whole page background color */
+body {
+    background-color: #676767;
+}
+
+/* post creation area */
+.postForm {
+    background-color: #6699cc;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: sans-serif;
+}
+
+
+/* Labels for the text boxes */
+.form-container label,
+.postForm label {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+/* create post button */
+.form-container button,
+.postForm button {
+    width: 300px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #003b6d;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+/* animation for post buttoin */
+.form-container button,
+.postForm button:hover {
+    background-color: #bdbdbd;
+}
+
+/* text boxes for input */
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    background-color: #bdbdbd;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* posts */
+.posts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+/* for each post */
+.post {
+    background-color: #bdbdbd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    width: 60%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* post text stuff */
+.post h2 {
+    font-family: sans-serif;
+}
+
+/* post text stuff */
+.post p {
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+/* post text stuff */
+.post-content {
+    font-weight: normal;
+}
+
+/*edit button */
+.post button {
+    background-color: #003b6d;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* header */
+header {
+    background-color: #003b6d;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+
+/* flex styling for header */
+.headercontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headercontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Account button styling */
+header .accountbutton {
+    background-color: #6699cc !important;
+    color: #000000 !important;
+    border: 2px solid #000000 !important;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+/* Whole page background color for all pages */
+body {
+    background-color: #676767;
+    font-family: sans-serif;
+}
+
+/* Centering content container */
+.container {
+    background-color: #6699cc;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 40px auto;
+    width: 40%;
+    box-sizing: border-box;
+}
+
+/* Form labels */
+.container label {
+    font-weight: bold;
+}
+
+/* Form input fields */
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    background-color: #bdbdbd;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/* form buttons */
+.container button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #003b6d;
+    color: #000000;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Hover effect for buttons */
+.container button:hover {
+    background-color: #bdbdbd;
+}
+
+
+.account-button:hover {
+    background-color: #bdbdbd;
+}

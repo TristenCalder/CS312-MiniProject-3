@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Settings</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header>
+    <h1>Account Settings</h1>
+</header>
+<div class="container">
+    <form action="/account" method="POST">
+        <label for="name">Username:</label>
+        <input type="text" id="name" name="name" value="<%= user.name %>" required><br>
+
+        <label for="password">New Password:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <button type="submit">Update Account</button>
+    </form>
+</div>
+</body>
+</html>

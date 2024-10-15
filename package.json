@@ -1,0 +1,26 @@
+{
+  "name": "cs315_project_1_new",
+  "version": "1.0.0",
+  "main": "index.js",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "formidable": "^3.5.1",
+    "nodemon": "^3.1.4",
+    "path": "^0.12.7",
+    "pg": "^8.13.0"
+  }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Post Page</title>
+    <!-- Link to css file -->
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+<header>
+    <h1>CS312 Mini Project 1 - Edit Post Page</h1>
+</header>
+
+<!-- Form to take in user input for editing a post -->
+<div class="postForm">
+    <form method="POST" action="/edit-post/<%= index %>">
+
+        <!-- Text boxes for input -->
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" value="<%= post.title %>" required><br>
+        <label for="content">Content:</label>
+        <textarea id="content" name="content" required><%= post.body %></textarea><br>
+
+        <!-- category logic -->
+        <label for="category">Category:</label>
+        <select id="category" name="category" required>
+            <option value="Web Programming" <%= post.category === 'Web Programming' ? 'selected' : '' %>>Web Programming</option>
+            <option value="Other Programming" <%= post.category === 'Other Programming' ? 'selected' : '' %>>Other Programming</option>
+            <option value="Other" <%= post.category === 'Other' ? 'selected' : '' %>>Other</option>
+        </select><br>
+
+        <!-- submit button -->
+        <button type="submit">Save Changes</button>
+    </form>
+    </form>
+</div>
+</body>
+</html>
